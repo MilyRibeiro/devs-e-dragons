@@ -1,6 +1,6 @@
 const fundo = document.getElementById('fundo-modal')
 const modal = document.getElementById('modal');
-const mensagemModal = modal.querySelector('.mensagem')
+const mensagemModal = modal.querySelector('.mensagem');
 const botaoFechar = document.getElementById('fechar-botao');
 
 const removerModal = () => {
