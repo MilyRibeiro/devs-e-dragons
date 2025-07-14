@@ -26,7 +26,7 @@ export class Personagem {
   };
 
   set level(novoLevel) {
-    if (novoLevel >= 1 && novoLevel <= 10) {
+    if (novoLevel >= 1 && novoLevel <= 20) {
       this.#level = novoLevel;
     };
   };

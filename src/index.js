@@ -5,16 +5,24 @@ import { ArqueiroMago } from "./modules/arqueiro-mago.js";
 import { Guerreiro } from "./modules/guerreiro.js";
 // import { Personagem } from "./modules/personagem.js";
 
-const magoPedrinho = new Mago('Pedrinho', 'Fogo', 6, 3)
-const magaJulia = new Mago('Julia', 'Gelo', 7, 10);
+const magoCallum = new Mago('Callum', 'Fogo', 6, 8)
+const magaTiamat = new Mago('Tiamat', 'Gelo', 7, 10);
+const magoGandalf = new Mago('Gandalf', 'Ar', 8, 7);
+const magaMorgana = new Mago('Morgana', 'Água', 9, 8);
 const arqueiroLegolas = new Arqueiro('Legolas', 10);
 const arqueiraTauriel = new Arqueiro('Tauriel', 7);
-const arqueiroMagoClint = new ArqueiroMago('Clint', 7, 'Ar', 9, 8);
+const arqueiroClint = new Arqueiro('Clint', 9);
+const arqueiroVerde = new Arqueiro('Oliver', 10);
+const arqueiraMagaAntiope = new ArqueiroMago('Antíope', 10, 'Fogo', 9, 8);
 const arqueiraMagaAtalanta = new ArqueiroMago('Atalanta', 8, 'Terra', 6, 9);
-const guerreiroAragorn = new Guerreiro('Aragorn', 8);
+const arqueiroMagoPedrinho = new ArqueiroMago('Pedrinho', 8, 'Ar', 7, 6);
+const guerreiroAragorn = new Guerreiro('Aragorn', 9);
+const guerreiraDiana = new Guerreiro('Diana', 10);
 const guerreiraRayla = new Guerreiro('Rayla', 7);
+const guerreiroSteve = new Guerreiro('Steve', 8);
+const guerreiraBrunhilde = new Guerreiro('Brunhilde', 9);
 
-const personagens = [magoPedrinho, magaJulia, arqueiroLegolas, arqueiraTauriel, arqueiroMagoClint, arqueiraMagaAtalanta, guerreiroAragorn, guerreiraRayla];
+const personagens = [magoCallum, magaTiamat, magaMorgana, magoGandalf, arqueiroLegolas, arqueiraTauriel, arqueiroClint, arqueiroVerde, arqueiraMagaAntiope, arqueiraMagaAtalanta, arqueiroMagoPedrinho, guerreiroAragorn, guerreiraRayla, guerreiraDiana, guerreiraBrunhilde, guerreiroSteve];
 
 new PersonagemView(personagens).render();
 
