@@ -16,6 +16,7 @@ A interface permite aumentar e diminuir os níveis dos personagens entre 1 e 20,
 
 
 ![Layout do Devs e Dragons.](https://github.com/MilyRibeiro/devs-e-dragons/blob/main/Captura%20de%20tela%202025-07-13%20210224.png)
+![Layout do duelo no Devs e Dragons.](https://github.com/MilyRibeiro/devs-e-dragons/blob/main/duelo.png)
 
 ---
 
